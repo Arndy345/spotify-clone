@@ -1,0 +1,30 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    max-width: 1700px;
+    padding: 5px;
+    transition: ease-in all 0.5s;
+    -webkit-transition: ease-in all 0.5s;
+    -moz-transition: ease-in all 0.5s;
+    -ms-transition: ease-in all 0.5s;
+    -o-transition: ease-in all 0.5s;
+    margin: 0;
+}
+
+.black {
+    background-color: black;
+}
+
+.img-logo {
+    width: 80px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+.img-art {
+    width: 30px;
+    object-fit: contain;
+    margin-right: 5px;
+}
